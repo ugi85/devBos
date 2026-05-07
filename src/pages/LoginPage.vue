@@ -12,7 +12,7 @@ import { ArrowRight, Lock, Mail } from 'lucide-vue-next';
           WELCOME BACK
         </h1>
         <p class="mt-2 text-xs font-bold uppercase tracking-widest text-gray-500">
-          Secure access to SteelProcure dashboard
+          Secure access to BagusProject dashboard
         </p>
       </div>
 
