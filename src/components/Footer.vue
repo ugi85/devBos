@@ -7,7 +7,7 @@ import { Share2, Globe, Mail } from 'lucide-vue-next';
     <div class="mx-auto max-w-7xl px-6 py-12">
       <div class="grid grid-cols-1 gap-12 lg:grid-cols-4">
         <div class="lg:col-span-1">
-          <span class="text-2xl font-bold text-secondary font-heading">SteelProcure</span>
+          <span class="text-2xl font-bold text-secondary font-heading">BagusProject</span>
           <p class="mt-4 max-w-xs text-sm leading-relaxed text-gray-400">
             Integrated logistics and procurement solutions for the modern industrial supply chain.
             Built for structural integrity and reliability.
@@ -44,7 +44,7 @@ import { Share2, Globe, Mail } from 'lucide-vue-next';
 
       <div class="mt-12 flex flex-col items-center justify-between border-t border-gray-800 pt-8 md:flex-row">
         <p class="text-xs text-gray-500">
-          © 2024 SteelProcure Logistics. Built for structural integrity.
+          © 2024 BagusProject Logistics. Built for structural integrity.
         </p>
         <div class="mt-4 flex gap-6 md:mt-0">
           <button class="text-gray-500 hover:text-white"><Share2 class="h-5 w-5" /></button>

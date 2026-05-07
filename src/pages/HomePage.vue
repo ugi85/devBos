@@ -20,7 +20,7 @@ import { ArrowRight, Box, Hammer, ShieldCheck, BarChart3, CloudRain } from 'luci
             Logistik Presisi
           </span>
           <h1 class="mt-6 text-5xl font-black leading-tight text-white md:text-6xl uppercase tracking-tighter">
-            SteelProcure: Material Konstruksi Berkualitas & Transparan
+            BagusProject: Material Konstruksi Berkualitas & Transparan
           </h1>
           <p class="mt-6 text-lg text-gray-300">
             Platform pengadaan material industri yang memprioritaskan integritas struktural, efisiensi biaya, dan kepastian volume untuk setiap proyek Anda.

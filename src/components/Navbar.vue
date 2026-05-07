@@ -6,11 +6,11 @@ import { Search, ShoppingCart, User, Menu } from 'lucide-vue-next';
 const route = useRoute();
 
 const navLinks = [
-  { name: "Categories", path: "/catalog" },
-  { name: "Calculator", path: "/calculator" },
-  { name: "Sustainability", path: "/about" },
-  { name: "Order Tracking", path: "/track" },
-  { name: "Support", path: "/support" },
+  { name: "Katalog Produk", path: "/catalog" },
+  { name: "Kalkulator Volume", path: "/calculator" },
+  { name: "Tentang Kami", path: "/about" },
+  // { name: "Order Tracking", path: "/track" },
+  { name: "Kontak", path: "/support" },
 ];
 </script>
 
@@ -19,7 +19,7 @@ const navLinks = [
     <div class="mx-auto flex h-16 max-w-7xl items-center justify-between px-6">
       <router-link to="/" class="flex items-center gap-2">
         <span class="text-2xl font-black uppercase tracking-tighter text-primary font-heading">
-          SteelProcure
+          BagusProject
         </span>
       </router-link>
 
@@ -36,14 +36,14 @@ const navLinks = [
       </nav>
 
       <div class="flex items-center gap-4">
-        <div class="hidden items-center rounded-full bg-gray-100 px-4 py-1.5 xl:flex">
+        <!-- <div class="hidden items-center rounded-full bg-gray-100 px-4 py-1.5 xl:flex">
           <Search class="h-4 w-4 text-gray-400" />
           <input
             type="text"
             placeholder="Search materials..."
             class="bg-transparent px-2 text-sm outline-none placeholder:text-gray-400"
           />
-        </div>
+        </div> -->
         <router-link to="/login" class="hidden text-sm font-bold text-primary hover:underline md:block">
           Login
         </router-link>

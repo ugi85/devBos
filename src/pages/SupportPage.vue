@@ -39,8 +39,8 @@ const faqs = [
       <div class="grid gap-6 md:grid-cols-3">
         <div v-for="(item, i) in [
           { icon: MessageSquare, title: 'Live Chat', desc: 'Instant response from our logistics team', action: 'Start Chat', color: 'text-blue-500' },
-          { icon: Phone, title: 'Phone Support', desc: 'Available 24/7 for active site emergencies', action: '+1 (800) STEEL-PRO', color: 'text-green-500' },
-          { icon: Mail, title: 'Email Assistance', desc: 'Technical documentation & billing queries', action: 'support@steelprocure.com', color: 'text-secondary' },
+          { icon: Phone, title: 'Phone Support', desc: 'Available 24/7 for active site emergencies', action: '+1 (800) BagusProject', color: 'text-green-500' },
+          { icon: Mail, title: 'Email Assistance', desc: 'Technical documentation & billing queries', action: 'support@bagus.com', color: 'text-secondary' },
         ]" :key="i" class="rounded-2xl border border-outline-variant bg-white p-8 shadow-xl">
           <div :class="`mb-6 flex h-12 w-12 items-center justify-center rounded-xl bg-gray-50 ${item.color}`">
              <component :is="item.icon" class="h-6 w-6" />
