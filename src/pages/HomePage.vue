@@ -20,10 +20,10 @@ import { ArrowRight, Box, Hammer, ShieldCheck, BarChart3, CloudRain } from 'luci
             Logistik Presisi
           </span> -->
           <h1 class="mt-6 text-5xl font-black leading-tight text-white md:text-5xl uppercase tracking-tighter">
-            Material Konstruksi Berkualitas & Transparan
+            Dynamix Beton Inovatif & Ramah Lingkungan
           </h1>
           <p class="mt-6 text-lg text-gray-300">
-            Platform pengadaan material industri yang memprioritaskan integritas struktural, efisiensi biaya, dan kepastian volume untuk setiap proyek Anda.
+            Kami memasok agregat dari 2 lokasi tambang terbesar di Indonesia, yang menghasilkan agregat berkualitas untuk campuran beton, aspal jalan dan lainya yang terbagi dari beberapa jenis.
           </p>
           <div class="mt-10 flex flex-wrap gap-4">
             <!-- <router-link
@@ -56,8 +56,8 @@ import { ArrowRight, Box, Hammer, ShieldCheck, BarChart3, CloudRain } from 'luci
             <label class="text-[10px] font-bold uppercase tracking-widest text-gray-400">Tipe Struktur</label>
             <select class="w-full bg-gray-50 border border-gray-200 p-3 text-sm focus:outline-none focus:border-secondary">
               <option>Beton Ready-Mix</option>
-              <option>Besi Tulangan</option>
-              <option>Baja Profil</option>
+              <!-- <option>Besi Tulangan</option>
+              <option>Baja Profil</option> -->
             </select>
           </div>
           <div class="grid grid-cols-2 gap-4">
