@@ -41,7 +41,7 @@ import { ShieldCheck, Truck, Leaf, CheckCircle } from 'lucide-vue-next';
           <h2 class="text-4xl font-bold uppercase text-primary tracking-tighter">Kisah Kami</h2>
           <div class="h-1.5 w-20 bg-secondary" />
           <p class="text-lg leading-relaxed text-gray-500 font-medium whitespace-pre-line">
-            BagusProject lahir dari tantangan nyata di lapangan: kurangnya transparansi dan kompleksitas rantai pasok material konstruksi. Kami merevolusi industri dengan konsep <strong class="text-primary tracking-tight italic">"Beton Jujur"</strong>.
+            Dynamix lahir dari tantangan nyata di lapangan: kurangnya transparansi dan kompleksitas rantai pasok material konstruksi. Kami merevolusi industri dengan konsep <strong class="text-primary tracking-tight italic">"Beton Jujur"</strong>.
           </p>
           <p class="text-sm leading-relaxed text-gray-500">
              Dengan mengintegrasikan teknologi pelacakan GPS, audit digital, dan sistem pengadaan terintegrasi, kami memastikan setiap ton material yang Anda terima memiliki sertifikasi penuh dan harga yang transparan.

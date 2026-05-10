@@ -20,7 +20,7 @@ const navLinks = [
     <div class="mx-auto flex h-16 max-w-7xl items-center justify-between px-6">
       <router-link to="/" class="flex items-center gap-2">
         <span class="text-2xl font-black uppercase tracking-tighter text-primary font-heading">
-          BagusProject
+          Dynamix
         </span>
       </router-link>
 
@@ -64,12 +64,12 @@ const navLinks = [
             class="bg-transparent px-2 text-sm outline-none placeholder:text-gray-400"
           />
         </div> -->
-        <router-link to="/login" class="hidden text-sm font-bold text-primary hover:underline md:block">
+        <!-- <router-link to="/login" class="hidden text-sm font-bold text-primary hover:underline md:block">
           Login
-        </router-link>
-        <button class="rounded-lg bg-secondary px-5 py-2 text-sm font-bold text-primary shadow-sm transition-transform active:scale-95">
+        </router-link> -->
+        <router-link to="/login" class="rounded-lg bg-secondary px-5 py-2 text-sm font-bold text-primary shadow-sm transition-transform active:scale-95">
           Get Quote
-        </button>
+        </router-link>
         <button class="lg:hidden text-primary" @click="isMenuOpen = !isMenuOpen">
           <Menu class="h-6 w-6" />
         </button>

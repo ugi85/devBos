@@ -8,7 +8,7 @@ import { ArrowRight, Box, Hammer, ShieldCheck, BarChart3, CloudRain } from 'luci
     <section class="relative h-[600px] overflow-hidden">
       <div class="absolute inset-0">
         <img
-          src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&w=2070&auto=format&fit=crop"
+          src="https://foto.wartaekonomi.co.id/files/arsip_foto_2021_07_30/pt_solusi_bangun_indonesia_tbk_sbi_102957_big.jpg?q=80&w=2070&auto=format&fit=crop"
           alt="Construction Site"
           class="h-full w-full object-cover"
         />
@@ -16,17 +16,17 @@ import { ArrowRight, Box, Hammer, ShieldCheck, BarChart3, CloudRain } from 'luci
       </div>
       <div class="relative mx-auto flex h-full max-w-7xl items-center px-6">
         <div class="max-w-2xl">
-          <span class="inline-block bg-secondary px-3 py-1 text-[10px] font-bold uppercase tracking-widest text-primary">
+          <!-- <span class="inline-block bg-secondary px-3 py-1 text-[10px] font-bold uppercase tracking-widest text-primary">
             Logistik Presisi
-          </span>
-          <h1 class="mt-6 text-5xl font-black leading-tight text-white md:text-6xl uppercase tracking-tighter">
-            BagusProject: Material Konstruksi Berkualitas & Transparan
+          </span> -->
+          <h1 class="mt-6 text-5xl font-black leading-tight text-white md:text-5xl uppercase tracking-tighter">
+            Material Konstruksi Berkualitas & Transparan
           </h1>
           <p class="mt-6 text-lg text-gray-300">
             Platform pengadaan material industri yang memprioritaskan integritas struktural, efisiensi biaya, dan kepastian volume untuk setiap proyek Anda.
           </p>
           <div class="mt-10 flex flex-wrap gap-4">
-            <router-link
+            <!-- <router-link
               to="/catalog"
               class="flex items-center gap-2 bg-secondary px-8 py-4 font-bold text-primary transition-transform hover:translate-y-[-2px]"
             >
@@ -38,7 +38,7 @@ import { ArrowRight, Box, Hammer, ShieldCheck, BarChart3, CloudRain } from 'luci
               class="bg-white/10 px-8 py-4 font-bold text-white backdrop-blur-md transition-colors hover:bg-white/20"
             >
               Lihat Katalog
-            </router-link>
+            </router-link> -->
           </div>
         </div>
       </div>
@@ -199,7 +199,7 @@ import { ArrowRight, Box, Hammer, ShieldCheck, BarChart3, CloudRain } from 'luci
             <p class="mx-auto mt-6 max-w-2xl text-lg font-medium text-accent">Dapatkan penawaran harga terbaik untuk proyek komersial maupun residensial Anda. Hubungi tim ahli kami untuk konsultasi teknis gratis.</p>
             <div class="mt-10 flex flex-wrap justify-center gap-6">
                <router-link to="/catalog" class="bg-primary px-10 py-4 text-sm font-bold uppercase tracking-widest text-white shadow-xl transition-transform active:scale-95">Mulai Proyek Sekarang</router-link>
-               <router-link to="/support" class="border-2 border-primary px-10 py-4 text-sm font-bold uppercase tracking-widest text-primary transition-colors hover:bg-primary hover:text-white">Konsultasi Sales</router-link>
+               <a href="https://wa.me/6282298045418?text=Hello,%20I%20would%20like%20to%20inquire%20about%20your%20products." target="_blank"  class="border-2 border-primary px-10 py-4 text-sm font-bold uppercase tracking-widest text-primary transition-colors hover:bg-primary hover:text-white">Konsultasi Sales</a>
             </div>
           </div>
        </div>
