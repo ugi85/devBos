@@ -49,9 +49,9 @@ const navLinks = [
           >
             {{ link.name }}
           </router-link>
-          <router-link to="/login" class="py-2 text-sm font-bold text-primary hover:underline">
+          <!-- <router-link to="/login" class="py-2 text-sm font-bold text-primary hover:underline">
             Login
-          </router-link>
+          </router-link> -->
         </div>
       </nav>
 
