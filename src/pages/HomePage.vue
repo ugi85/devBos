@@ -139,7 +139,7 @@ import { ArrowRight, Box, Hammer, ShieldCheck, BarChart3, CloudRain } from 'luci
             <button class="mt-6 border border-primary px-6 py-2 text-xs font-bold uppercase tracking-widest transition-colors hover:bg-primary hover:text-white">Hubungi Sales</button>
           </div>
           <div class="hidden lg:block w-1/3">
-             <img src="https://images.unsplash.com/photo-1621905252507-b354bcadc0e2?q=80&w=2069&auto=format&fit=crop" class="h-32 w-full object-cover rounded-lg shadow-sm" />
+             <img src="https://rkbetonprecast.com/wp-content/uploads/2026/04/Pentingnya-Memilih-Material-Pengisi-yang-Tepat.jpeg" />
           </div>
         </div>
       </div>

@@ -4,6 +4,7 @@ import { useRoute } from 'vue-router';
 import { Search, ShoppingCart, User, Menu } from 'lucide-vue-next';
 
 const route = useRoute();
+const isMenuOpen = ref(false);
 
 const navLinks = [
   { name: "Katalog Produk", path: "/catalog" },
@@ -35,6 +36,25 @@ const navLinks = [
         </router-link>
       </nav>
 
+      <!-- Mobile Menu -->
+      <nav v-show="isMenuOpen" class="absolute top-16 left-0 w-full bg-surface border-b border-outline-variant lg:hidden">
+        <div class="flex flex-col px-6 py-4 space-y-4">
+          <router-link
+            v-for="link in navLinks"
+            :key="link.name"
+            :to="link.path"
+            class="py-2 text-sm font-semibold transition-colors hover:text-primary"
+            :class="route.path === link.path ? 'text-accent' : 'text-gray-500'"
+            @click="isMenuOpen = false"
+          >
+            {{ link.name }}
+          </router-link>
+          <router-link to="/login" class="py-2 text-sm font-bold text-primary hover:underline">
+            Login
+          </router-link>
+        </div>
+      </nav>
+
       <div class="flex items-center gap-4">
         <!-- <div class="hidden items-center rounded-full bg-gray-100 px-4 py-1.5 xl:flex">
           <Search class="h-4 w-4 text-gray-400" />
@@ -50,7 +70,7 @@ const navLinks = [
         <button class="rounded-lg bg-secondary px-5 py-2 text-sm font-bold text-primary shadow-sm transition-transform active:scale-95">
           Get Quote
         </button>
-        <button class="lg:hidden text-primary">
+        <button class="lg:hidden text-primary" @click="isMenuOpen = !isMenuOpen">
           <Menu class="h-6 w-6" />
         </button>
       </div>

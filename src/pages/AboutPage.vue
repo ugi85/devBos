@@ -28,7 +28,7 @@ import { ShieldCheck, Truck, Leaf, CheckCircle } from 'lucide-vue-next';
         <div class="relative">
           <div class="aspect-video overflow-hidden border-8 border-gray-100 bg-gray-200">
             <img 
-              src="https://images.unsplash.com/photo-1503387762-592dea58dc41?q=80&w=2070&auto=format&fit=crop" 
+              src="https://www.lawangindahbeton.com/wp-content/uploads/2023/10/Pabrik-Paving-Jawa-Timur.jpg" 
               class="h-full w-full object-cover grayscale"
             />
           </div>
@@ -132,7 +132,7 @@ import { ShieldCheck, Truck, Leaf, CheckCircle } from 'lucide-vue-next';
              </div>
              <div class="flex-1 w-full">
                 <img 
-                  src="https://images.unsplash.com/photo-1449156001533-cb39c81944ac?q=80&w=2070&auto=format&fit=crop" 
+                  src="https://sustainability.atmeta.com/wp-content/uploads/2024/12/concrete-hero-image.jpg?fit=1200%2C1200" 
                   class="aspect-square w-full object-cover rounded-2xl border-4 border-gray-100" 
                 />
              </div>
