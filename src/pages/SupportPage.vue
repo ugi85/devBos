@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { MessageSquare, Phone, Mail, HelpCircle, ArrowUpRight } from 'lucide-vue-next';
+import { MessageCircle, Phone, Mail, HelpCircle, ArrowUpRight } from 'lucide-vue-next';
 
 const faqs = [
   {
@@ -38,16 +38,28 @@ const faqs = [
       <!-- Contact Grid -->
       <div class="grid gap-6 md:grid-cols-3">
         <div v-for="(item, i) in [
-          { icon: MessageSquare, title: 'Live Chat', desc: 'Instant response from our logistics team', action: 'Start Chat', color: 'text-blue-500' },
-          { icon: Phone, title: 'Phone Support', desc: 'Available 24/7 for active site emergencies', action: '+1 (800) BagusProject', color: 'text-green-500' },
-          { icon: Mail, title: 'Email Assistance', desc: 'Technical documentation & billing queries', action: 'support@bagus.com', color: 'text-secondary' },
+          { icon: MessageCircle, title: 'Live Chat', desc: 'Instant response from our logistics team', action: 'Start Chat', color: 'text-green-500' },
+          { icon: Phone, title: 'Phone Support', desc: 'Available 24/7 for active site emergencies', action: '(021) 555-5555', color: 'text-blue-500' },
+          { icon: Mail, title: 'Email Assistance', desc: 'Technical documentation & billing queries', action: 'support@dynamix.com', color: 'text-secondary' },
         ]" :key="i" class="rounded-2xl border border-outline-variant bg-white p-8 shadow-xl">
           <div :class="`mb-6 flex h-12 w-12 items-center justify-center rounded-xl bg-gray-50 ${item.color}`">
              <component :is="item.icon" class="h-6 w-6" />
           </div>
           <h3 class="text-xl font-bold font-heading uppercase tracking-tight">{{ item.title }}</h3>
           <p class="mt-2 text-sm text-gray-500 leading-relaxed font-medium">{{ item.desc }}</p>
-          <button class="mt-6 flex items-center gap-2 text-sm font-black uppercase tracking-widest text-secondary hover:underline">
+          <a
+            v-if="item.title === 'Live Chat'"
+            href="https://wa.me/6282298045418?text=Hello,%20I%20would%20like%20to%20inquire%20about%20your%20products."
+            target="_blank"
+            rel="noopener noreferrer"
+            class="mt-6 inline-flex items-center gap-2 text-sm font-black uppercase tracking-widest text-secondary hover:underline"
+          >
+            {{ item.action }} <ArrowUpRight class="h-4 w-4" />
+          </a>
+          <button
+            v-else
+            class="mt-6 flex items-center gap-2 text-sm font-black uppercase tracking-widest text-secondary hover:underline"
+          >
             {{ item.action }} <ArrowUpRight class="h-4 w-4" />
           </button>
         </div>

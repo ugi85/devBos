@@ -28,7 +28,7 @@ import { ShieldCheck, Truck, Leaf, CheckCircle } from 'lucide-vue-next';
         <div class="relative">
           <div class="aspect-video overflow-hidden border-8 border-gray-100 bg-gray-200">
             <img 
-              src="https://images.unsplash.com/photo-1503387762-592dea58dc41?q=80&w=2070&auto=format&fit=crop" 
+              src="https://www.lawangindahbeton.com/wp-content/uploads/2023/10/Pabrik-Paving-Jawa-Timur.jpg" 
               class="h-full w-full object-cover grayscale"
             />
           </div>
@@ -41,7 +41,7 @@ import { ShieldCheck, Truck, Leaf, CheckCircle } from 'lucide-vue-next';
           <h2 class="text-4xl font-bold uppercase text-primary tracking-tighter">Kisah Kami</h2>
           <div class="h-1.5 w-20 bg-secondary" />
           <p class="text-lg leading-relaxed text-gray-500 font-medium whitespace-pre-line">
-            BagusProject lahir dari tantangan nyata di lapangan: kurangnya transparansi dan kompleksitas rantai pasok material konstruksi. Kami merevolusi industri dengan konsep <strong class="text-primary tracking-tight italic">"Beton Jujur"</strong>.
+            Dynamix lahir dari tantangan nyata di lapangan: kurangnya transparansi dan kompleksitas rantai pasok material konstruksi. Kami merevolusi industri dengan konsep <strong class="text-primary tracking-tight italic">"Beton Jujur"</strong>.
           </p>
           <p class="text-sm leading-relaxed text-gray-500">
              Dengan mengintegrasikan teknologi pelacakan GPS, audit digital, dan sistem pengadaan terintegrasi, kami memastikan setiap ton material yang Anda terima memiliki sertifikasi penuh dan harga yang transparan.
@@ -132,7 +132,7 @@ import { ShieldCheck, Truck, Leaf, CheckCircle } from 'lucide-vue-next';
              </div>
              <div class="flex-1 w-full">
                 <img 
-                  src="https://images.unsplash.com/photo-1449156001533-cb39c81944ac?q=80&w=2070&auto=format&fit=crop" 
+                  src="https://sustainability.atmeta.com/wp-content/uploads/2024/12/concrete-hero-image.jpg?fit=1200%2C1200" 
                   class="aspect-square w-full object-cover rounded-2xl border-4 border-gray-100" 
                 />
              </div>

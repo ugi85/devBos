@@ -39,7 +39,7 @@ const products: Product[] = [
     unit: "Meter",
     description: "Baja tulangan beton berkualitas tinggi untuk penguatan struktur bangunan dan jembatan.",
     specs: { Diameter: "12 mm", Panjang: "12 m" },
-    image: "https://images.unsplash.com/photo-1621905252507-b354bcadc0e2?q=80&w=2069&auto=format&fit=crop",
+    image: "https://asiacon.co.id/wp-content/uploads/2020/07/berat-jenis-besi-700x380.jpg",
   },
   {
     id: 3,
@@ -59,7 +59,7 @@ const products: Product[] = [
     unit: "m²",
     description: "Paving block berkualitas tinggi untuk area parkir, trotoar, dan jalan lingkungan perumahan.",
     specs: { Kekuatan: "K-250", Warna: "Abu, Merah" },
-    image: "https://images.unsplash.com/photo-1581094794329-c8112c4e5190?q=80&w=2070&auto=format&fit=crop",
+    image: "https://niu-precast.com/wp-content/uploads/2025/04/Manfaat-Menggunakan-Paving-Block.jpg",
   },
   {
     id: 5,

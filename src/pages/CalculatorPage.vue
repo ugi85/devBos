@@ -155,7 +155,7 @@ const tools = [
           <div v-for="i in 3" :key="i" class="group rounded-2xl border border-outline-variant bg-white p-6 transition-shadow hover:shadow-lg">
              <div class="mb-4 h-40 overflow-hidden bg-gray-100 rounded-xl">
                <img 
-                 :src="i === 1 ? 'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?q=80&w=1968&auto=format&fit=crop' : i === 2 ? 'https://images.unsplash.com/photo-1621905252507-b354bcadc0e2?q=80&w=2069&auto=format&fit=crop' : 'https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&w=2070&auto=format&fit=crop'" 
+                 :src="i === 1 ? 'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?q=80&w=1968&auto=format&fit=crop' : i === 2 ? 'https://ainscough-s3-image-cache.s3.eu-west-2.amazonaws.com/20211118/2_3244_61960939521225.28961307_w_600.jpg' : 'https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&w=2070&auto=format&fit=crop'" 
                  class="h-full w-full object-cover grayscale transition-transform group-hover:scale-105" 
                />
              </div>

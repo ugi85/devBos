@@ -7,7 +7,7 @@ import { Share2, Globe, Mail } from 'lucide-vue-next';
     <div class="mx-auto max-w-7xl px-6 py-12">
       <div class="grid grid-cols-1 gap-12 lg:grid-cols-4">
         <div class="lg:col-span-1">
-          <span class="text-2xl font-bold text-secondary font-heading">BagusProject</span>
+          <span class="text-2xl font-bold text-secondary font-heading">Dynamix</span>
           <p class="mt-4 max-w-xs text-sm leading-relaxed text-gray-400">
             Integrated logistics and procurement solutions for the modern industrial supply chain.
             Built for structural integrity and reliability.
@@ -27,8 +27,8 @@ import { Share2, Globe, Mail } from 'lucide-vue-next';
             <h4 class="mb-4 text-xs font-bold uppercase tracking-widest text-white">Perusahaan</h4>
             <ul class="space-y-3 text-sm">
               <li><router-link to="/about" class="hover:text-secondary transition-colors">ESG Report</router-link></li>
-              <li><a href="#" class="hover:text-secondary transition-colors">Career</a></li>
-              <li><a href="#" class="hover:text-secondary transition-colors">Press</a></li>
+              <li><a href="#" class="hover:text-secondary transition-colors">Our Partners</a></li>
+              <li><a href="#" class="hover:text-secondary transition-colors">Services Area</a></li>
             </ul>
           </div>
           <div>
@@ -44,7 +44,7 @@ import { Share2, Globe, Mail } from 'lucide-vue-next';
 
       <div class="mt-12 flex flex-col items-center justify-between border-t border-gray-800 pt-8 md:flex-row">
         <p class="text-xs text-gray-500">
-          © 2024 BagusProject Logistics. Built for structural integrity.
+          © 2026 Dynamix Logistics. Built for structural integrity.
         </p>
         <div class="mt-4 flex gap-6 md:mt-0">
           <button class="text-gray-500 hover:text-white"><Share2 class="h-5 w-5" /></button>
