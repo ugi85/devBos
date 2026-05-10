@@ -44,7 +44,7 @@ import { Share2, Globe, Mail } from 'lucide-vue-next';
 
       <div class="mt-12 flex flex-col items-center justify-between border-t border-gray-800 pt-8 md:flex-row">
         <p class="text-xs text-gray-500">
-          © 2026 Dynamix Logistics. Built for structural integrity.
+          © 2026 Dynamix Construction. Built for structural integrity.
         </p>
         <div class="mt-4 flex gap-6 md:mt-0">
           <button class="text-gray-500 hover:text-white"><Share2 class="h-5 w-5" /></button>
