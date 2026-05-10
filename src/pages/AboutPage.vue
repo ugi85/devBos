@@ -28,8 +28,8 @@ import { ShieldCheck, Truck, Leaf, CheckCircle } from 'lucide-vue-next';
         <div class="relative">
           <div class="aspect-video overflow-hidden border-8 border-gray-100 bg-gray-200">
             <img 
-              src="https://www.lawangindahbeton.com/wp-content/uploads/2023/10/Pabrik-Paving-Jawa-Timur.jpg" 
-              class="h-full w-full object-cover grayscale"
+              src="https://solusibangunindonesia.com/wp-content/uploads/2025/03/Semen-Curah.webp" 
+              class="h-full w-full object-cover"
             />
           </div>
           <div class="absolute -bottom-10 -right-10 bg-primary p-8 text-white shadow-2xl">
@@ -41,10 +41,10 @@ import { ShieldCheck, Truck, Leaf, CheckCircle } from 'lucide-vue-next';
           <h2 class="text-4xl font-bold uppercase text-primary tracking-tighter">Kisah Kami</h2>
           <div class="h-1.5 w-20 bg-secondary" />
           <p class="text-lg leading-relaxed text-gray-500 font-medium whitespace-pre-line">
-            Dynamix lahir dari tantangan nyata di lapangan: kurangnya transparansi dan kompleksitas rantai pasok material konstruksi. Kami merevolusi industri dengan konsep <strong class="text-primary tracking-tight italic">"Beton Jujur"</strong>.
+            Melalui anak usaha kami, <strong class="text-primary tracking-tight italic">"PT Solusi Bangun Bangsa"</strong>, Solusi Bangun Indonesia menyediakan layanan komprehensif dalam bidang beton jadi, dengan jaringan terintegrasi yang tersebar di Pulau Jawa, yang siap melayani beragam proyek pembangunan di Indonesia.
           </p>
           <p class="text-sm leading-relaxed text-gray-500">
-             Dengan mengintegrasikan teknologi pelacakan GPS, audit digital, dan sistem pengadaan terintegrasi, kami memastikan setiap ton material yang Anda terima memiliki sertifikasi penuh dan harga yang transparan.
+             Dengan pengalaman dan keahlian kelas dunia, kami tidak hanya mengantarkan produk dengan kualitas terbaik, tetapi juga memberikan konsultasi dan bantuan teknis untuk bangunan Anda.
           </p>
           <div class="rounded-xl border-l-4 border-primary bg-gray-100 p-6 italic text-primary">
              "Integritas bukan sekadar kata-kata, melainkan setiap pilar yang kami bangun bersama Anda."

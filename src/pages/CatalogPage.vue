@@ -49,7 +49,7 @@ const products: Product[] = [
     unit: "m³",
     description: "Beton siap pakai dengan kuat tekan 300 kg/cm2. Volume presisi dan pengiriman tepat waktu.",
     specs: { Slump: "12 ± 2 cm", Layanan: "Pump Service" },
-    image: "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?q=80&w=1968&auto=format&fit=crop",
+    image: "https://pusatreadymix.com/wp-content/uploads/2025/02/harga-beton-dynamix.jpg?q=80&w=1968&auto=format&fit=crop",
   },
   {
     id: 4,
