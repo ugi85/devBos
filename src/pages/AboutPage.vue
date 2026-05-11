@@ -41,7 +41,7 @@ import { ShieldCheck, Truck, Leaf, CheckCircle } from 'lucide-vue-next';
           <h2 class="text-4xl font-bold uppercase text-primary tracking-tighter">Kisah Kami</h2>
           <div class="h-1.5 w-20 bg-secondary" />
           <p class="text-lg leading-relaxed text-gray-500 font-medium whitespace-pre-line">
-            Melalui anak usaha kami, <strong class="text-primary tracking-tight italic">"PT Solusi Bangun Bangsa"</strong>, Solusi Bangun Indonesia menyediakan layanan komprehensif dalam bidang beton jadi, dengan jaringan terintegrasi yang tersebar di Pulau Jawa, yang siap melayani beragam proyek pembangunan di Indonesia.
+            Melalui anak usaha kami, <strong class="text-primary tracking-tight italic">"PT Solusi Bangun Beton"</strong>, Solusi Bangun Beton menyediakan layanan komprehensif dalam bidang beton jadi, dengan jaringan terintegrasi yang tersebar di Pulau Jawa, yang siap melayani beragam proyek pembangunan di Indonesia.
           </p>
           <p class="text-sm leading-relaxed text-gray-500">
              Dengan pengalaman dan keahlian kelas dunia, kami tidak hanya mengantarkan produk dengan kualitas terbaik, tetapi juga memberikan konsultasi dan bantuan teknis untuk bangunan Anda.
