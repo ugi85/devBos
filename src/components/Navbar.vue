@@ -9,8 +9,8 @@ const isMenuOpen = ref(false);
 const navLinks = [
   { name: "Katalog Produk", path: "/catalog" },
   { name: "Kalkulator Volume", path: "/calculator" },
+  { name: "Order Tracking", path: "/track" },
   { name: "Tentang Kami", path: "/about" },
-  // { name: "Order Tracking", path: "/track" },
   { name: "Kontak", path: "/support" },
 ];
 </script>
